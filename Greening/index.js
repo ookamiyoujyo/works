@@ -1,14 +1,10 @@
-$(function(){
-  $(window).scroll(function (){
-    $("#sample").each(function(){
-      var imgPos = $(this).offset().top;
-      var scroll = $(window).scrollTop();
-      var windowHeight = $(window).height();
-      if (scroll > imgPos - windowHeight + windowHeight/5){
-        $(this).addClass("fade_on");
-      } else {
-        $(this).removeClass("fade_on");
-      }
+ $(window).scroll(function (){
+    $('.fadein').each(function(){
+        var elemPos = $(this).offset().top,
+            scroll = $(window).scrollTop(),
+            windowHeight = $(window).height();
+          if (scroll > elemPos - windowHeight + 100){
+              $(this).addClass('scrollin');
+            }
+        });
     });
-  });
-});
