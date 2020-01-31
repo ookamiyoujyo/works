@@ -3,17 +3,6 @@
   box-sizing: border-box;
 }
 
-.effect-fade {
-　opacity : 0;
-　transform : translate(0, 45px);
-　transition : all 300ms;
-}
-
-.effect-fade.effect-scroll {
-　opacity : 1;
-　transform : translate(0, 0);
-}
-
 body {
   position: relative;
   margin: 0;
@@ -99,6 +88,16 @@ body {
 .header ul li a:hover::after {
   width: 100%;
   background-color: #f4f4f4;
+}
+.effect-fade {
+　opacity : 0;
+　transform : translate(0, 45px);
+　transition : all 300ms;
+}
+
+.effect-fade.effect-scroll {
+　opacity : 1;
+　transform : translate(0, 0);
 }
 
 section {
