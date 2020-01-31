@@ -153,3 +153,12 @@ section {
     background-image: url(https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2018/05/editors-block-lead-image.jpg);
   }
 }
+
+// #cursor {
+//   position: fixed;
+//   left: 50%;
+//   top: 50%;
+//   transform: translate(-50%, -50%);
+//   z-index: 100;
+//   pointer-events: none;
+// }
