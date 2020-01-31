@@ -134,3 +134,6 @@ section:nth-child(6) {
 section:nth-child(7) {
   background-image: url(image/title.png);
 }
+section:nth-child(8) {
+  background-image: url(image/title.png);
+}
