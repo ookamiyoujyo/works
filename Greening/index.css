@@ -17,6 +17,33 @@ body {
   background-color: #1d1e22;
 }
 
+#page {
+    width: 980px;
+    margin: 0 auto;
+    border: blue 5px solid;
+}
+
+#header {
+    background-color: lightblue;
+}
+
+#content {
+    width: 680px;
+    float: left;
+    background-color: lightpink;
+}
+
+#sidebar {
+    width: 300px;
+    float: right;
+    background-color: lightgreen;
+}
+
+#footer {
+    clear: both;
+    background-color: lightblue;
+}
+
 .scrolls {
   position: absolute;
   top: 50%;
