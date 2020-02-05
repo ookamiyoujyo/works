@@ -105,18 +105,9 @@ section {
   background-size: cover;
   scroll-snap-align: center;
 }
-section h2 {
-  text-transform: uppercase;
-  font-size: 2.25rem;
-  font-weight: 900;
-  padding: 0.5em 1em;
-  color: #1d1e22;
-  background-color: #f4f4f4;
-  mix-blend-mode: screen;
-  border-radius: 0.25em;
-  pointer-events: none;
-  user-select: none;
-}
+    section h2 {
+        color: #f4f4f4;
+    }
     section:nth-child(2) {
         background-image: url(image/title.png);
     }
