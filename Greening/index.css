@@ -85,10 +85,10 @@ body {
   height: 3px;
   transition: all 0.2s linear;
 }
-.header ul li a:hover::after {
+/*.header ul li a:hover::after {
   width: 100%;
   background-color: #f4f4f4;
-}
+}*/
 
 
 section {
