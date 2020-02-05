@@ -105,10 +105,17 @@ section {
   background-size: cover;
   scroll-snap-align: center;
 }
-    section h1 {
-        color: #f4f4f4;
-        font-size: 350%;
-    }
+
+@font-face {
+    font-family: 'chogokubosogothic_5';
+    src: url(font/chogokubosogothic_5.ttf);
+}
+
+section h1 {
+    color: #f4f4f4;
+    font-size: 350%;
+    font-family: chogokubosogothic_5
+}
     section:nth-child(2) {
         background-image: url(image/title.png);
     }
