@@ -18,7 +18,9 @@ body {
     width: 1980px;
 }
 
-
+.resizeimage img {
+    width: 100%;
+}
 
 .scrolls {
   position: absolute;
