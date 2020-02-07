@@ -1,4 +1,4 @@
-::before,
+﻿::before,
 ::after {
   box-sizing: border-box;
 }
@@ -47,8 +47,12 @@ body {
   scroll-snap-points-y: repeat(100vh);
   scroll-snap-type: y mandatory;
 }
-
-.header {
+.school {
+    position: fixed;
+    bottom: 1px;
+    right: 1px;
+}
+    .header {
   position: fixed;
   top: 0;
   z-index: 1;
@@ -91,7 +95,11 @@ body {
   width: 100%;
   background-color: #f4f4f4;
 }
-
+table {
+    color: #000000;
+    font-size: 200%;
+    -webkit-text-stroke: 0.5px #ffffff;
+}
 
 section {
     margin-left: auto;
@@ -116,13 +124,43 @@ section {
     font-family: 'chogokubosogothic_5';
     src: url(font/chogokubosogothic_5.ttf);
 }
+.btn-flat-vertical-border {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.3em 4em;
+    text-decoration: none;
+    border-left: solid 4px #000000;
+    border-right: solid 4px #000000;
+    color: #000000;
+    background: #e1f3ff;
+    transition: .4s;
+}
 
+    .btn-flat-vertical-border:hover {
+        background: #0094ff;
+        color: #ffffff;
+    }
 section h1 {
     color: #f4f4f4;
     font-size: 350%;
-    font-family: chogokubosogothic_5
+    font-family: chogokubosogothic_5;
 }
-    section:nth-child(2) {
+section h3 {
+    font-size: 200%;
+    font-family: chogokubosogothic_5;
+}
+section h2 {
+    font-family: chogokubosogothic_5;
+    font-size: 150%;
+}
+    section h5 {
+    font-size: 300%;
+    line-height: 0em;
+    font-family: chogokubosogothic_5;
+}
+
+    section: nth-child(2) {
         background-image: url(image/title.png);
     }
     section:nth-child(3) {
@@ -132,14 +170,15 @@ section h1 {
         background-image: url(image/bg02.png);
     }
     section:nth-child(5) {
-        background-image: url(image/screenshot_game.png);
+        background-image: url(image/screenshot_game.gif);
     }
-    section:nth-child(6) {
-        background-image: url(image/screenshot_game2.png);
-    }
+section:nth-child(6) {
+    background-image: url(image/screenshot_game2.gif);
+}
     section:nth-child(7) {
         background-image: url(image/bg01.png);
     }
     section:nth-child(8) {
         background-image: url(image/screenshot_world2.png);
     }
+
